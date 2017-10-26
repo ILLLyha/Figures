@@ -38,7 +38,7 @@ public class Main {
         TriangleRB triangleRB = new TriangleRB(6,6,2);
         figureList.add(triangleRB);
 
-
+//commit
         /*
         for(int i=0; i < figureList.size(); i++ ){
             System.out.println(figureList.get(i).getInfo());
