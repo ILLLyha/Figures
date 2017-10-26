@@ -26,6 +26,19 @@ public class Main {
         Square square = new Square(5);
         figureList.add(square);
 
+        Triangle triangle = new Triangle(3, 5, 7);
+        figureList.add(triangle);
+
+        TrianglePU trianglePU = new TrianglePU(3,4,5);
+        figureList.add(trianglePU);
+
+        TriangleRS triangleRS = new TriangleRS(5,5,5);
+        figureList.add(triangleRS);
+
+        TriangleRB triangleRB = new TriangleRB(6,6,2);
+        figureList.add(triangleRB);
+
+
         /*
         for(int i=0; i < figureList.size(); i++ ){
             System.out.println(figureList.get(i).getInfo());
@@ -44,6 +57,7 @@ public class Main {
             } catch (NotImplementedException e){
                 System.out.println("Площадь не может быть вычислена");
             }
+            System.out.println();
         }
 
     }
